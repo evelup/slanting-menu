@@ -10,7 +10,7 @@ gulp.task('serve', ['sass'], function() {
     browserSync.init({
         server: {
             baseDir: "./",
-            index: "slanting-menu3.html",
+            index: "index.html",
         },
         ghostMode: {
             clicks: true,
